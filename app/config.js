@@ -1,32 +1,44 @@
-window.REACDETH_CONFIG = {
+window.REACDEATHS_CONFIG = {
   feedUrl: "./data/feed.json",
-  maxItems: 300,
+  maxItems: 400,
 
   sources: [
-    // Major global news
+    // Global
     "https://feeds.bbci.co.uk/news/rss.xml",
     "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
     "https://www.theguardian.com/world/rss",
     "https://www.aljazeera.com/xml/rss/all.xml",
-    "https://www.reutersagency.com/feed/?best-topics=world&post_type=best",
+    "https://rss.cnn.com/rss/edition.rss",
+    "https://www.reuters.com/rssFeed/worldNews",
 
-    // Europe coverage
+    // Europe general
     "https://www.euronews.com/rss?format=mrss",
     "https://www.france24.com/en/rss",
     "https://www.dw.com/en/top-stories/rss",
 
-    // US + regional
-    "https://rss.cnn.com/rss/edition.rss",
-    "https://feeds.nbcnews.com/nbcnews/public/news",
-    "https://www.latimes.com/world-nation/rss2.0.xml",
+    // 🇸🇪 Sweden
+    "https://www.svt.se/nyheter/rss.xml",
 
-    // Tech/media obituaries sometimes appear here
-    "https://www.theverge.com/rss/index.xml",
-    "https://mashable.com/feeds/rss/all",
+    // 🇳🇴 Norway
+    "https://www.nrk.no/toppsaker.rss",
 
-    // Public obituary aggregators / death reporting sources
-    "https://www.obituare.com/rss",
-    "https://www.legacy.com/feeds/obituaries"
+    // 🇩🇰 Denmark
+    "https://www.dr.dk/nyheder/service/feeds/allenyheder",
+
+    // 🇫🇮 Finland
+    "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET",
+
+    // 🇮🇸 Iceland
+    "https://www.ruv.is/rss/frettir",
+
+    // 🇪🇪 Estonia
+    "https://www.err.ee/rss",
+
+    // 🇱🇻 Latvia
+    "https://www.lsm.lv/rss/",
+
+    // 🇱🇹 Lithuania
+    "https://www.lrt.lt/rss"
   ],
 
   keywords: [
@@ -40,6 +52,9 @@ window.REACDETH_CONFIG = {
     "death",
     "funeral",
     "found dead",
-    "pronounced dead"
+    "pronounced dead",
+    "murdered",
+    "fatal",
+    "killed in"
   ]
 };
