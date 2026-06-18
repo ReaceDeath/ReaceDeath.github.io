@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ReaceDeaths</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+  <div class="app">
+    <header class="topbar">
+      <h1>ReaceDeaths</h1>
+
+      <input id="search" placeholder="Search names, sources, keywords..." />
+
+      <div class="filters">
+        <button data-filter="all">All</button>
+        <button data-filter="today">Today</button>
+        <button data-filter="week">Week</button>
+      </div>
+    </header>
+
+    <main id="feed"></main>
+  </div>
+
+  <script src="app/config.js"></script>
+  <script src="app/parser.js"></script>
+  <script src="app/engine.js"></script>
+  <script src="app/ui.js"></script>
+  <script src="app/app.js"></script>
+</body>
+</html>
